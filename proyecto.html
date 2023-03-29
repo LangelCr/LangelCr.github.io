@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Traveland - Agencia de Viajes</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Logo de Traveland">
+    <h1>Traveland</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Destinos</a></li>
+        <li><a href="#">Paquetes</a></li>
+        <li><a href="#contac_to">Contacto</a></li>
+        <li><a href="#noso_tros">Nosotros</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Nuestras Ofertas</h2>
+      <ul>
+        <li>
+          <img src="cancun.jpg" alt="Playa Linda">
+          <h3>Paquete a Playa Linda</h3>
+          <p>Visita la Playa Linda en canc&uacuten. Incluye vuelos, alojamiento y visitas turísticas.</p>
+          <a href="#">Ver más</a>
+        </li>
+        <li>
+          <img src="bali.jpg" alt="Playa de Bali">
+          <h3>Luna de Miel en Bali</h3>
+          <p>Vive una experiencia inolvidable en Bali, el paraíso de las islas. Incluye vuelos, alojamiento y actividades románticas.</p>
+          <a href="#">Ver más</a>
+        </li>
+        <li>
+          <img src="nuevayork.jpg" alt="Vista de Nueva York">
+          <h3>Paquete a Nueva York</h3>
+          <p>Explora la ciudad que nunca duerme y descubre sus icónicos lugares turísticos. Incluye vuelos, alojamiento y visitas turísticas.</p>
+          <a href="#">Ver más</a>
+        </li>
+        <li>
+          <img src="california.jpg" alt="Playa de California">
+          <h3>Costa de California</h3>
+          <p>Disfruta de un viaje por la costa oeste de Estados Unidos, visitando lugares como Los Ángeles, Santa Mónica y Malibú. Incluye vuelos, alojamiento y visitas turísticas.</p>
+          <a href="#">Ver más</a>
+        </li>
+        <li>
+          <img src="tailandia.jpg" alt="Templos de Tailandia">
+          <h3>Paquete a Tailandia</h3>
+          <p>Explora los templos y playas de Tailandia, visitando Bangkok y la isla de Phuket. Incluye vuelos, alojamiento y actividades turísticas.</p>
+          <a href="#">Ver más</a>
+        </li>
+        <li>
+          <img src="Pvallarta.jpg" alt="Puerto Vallarta">
+          <h3>Paquete especial Puerto Vallarta</h3>
+          <p>Escapate a la aventura para conocer Puerto Vallarta y su hermosa playa. Incluye vuelos, alojamiento y visitas turísticas.</p>
+          <a href="#">Ver más</a>
+        </li>
+        <li>
+      </ul>
+    </section>
+
+    <section   id="noso_tros">
+
+      <li>
+          <h2>¿Quienes somos?</h2>
+          <p>Traveland es una agencia de viajes que se dedica a ofrecer a sus clientes experiencias de viaje inolvidables, brindándoles opciones y destinos emocionantes, y un servicio excepcional. Nuestro objetivo es ayudar a los viajeros a descubrir y explorar el mundo, y a crear recuerdos duraderos.
+
+          Nuestra visión es convertirnos en la principal opción de agencia de viajes para aquellos que buscan experiencias únicas y personalizadas. Queremos ser reconocidos por nuestros clientes y la industria por nuestra excelencia en el servicio y nuestra capacidad para ofrecer soluciones de viaje personalizadas y creativas.
+
+          Nuestra misión es proporcionar un servicio excepcional a nuestros clientes y garantizar que tengan una experiencia de viaje cómoda, segura y agradable en todo momento. Queremos hacer que la planificación de viajes sea fácil y sin preocupaciones, y brindar a nuestros clientes la confianza de que sus necesidades de viaje son nuestra prioridad. Además, nos comprometemos a operar de manera ética y sostenible, y a apoyar a las comunidades locales en los destinos que visitamos.</p>
+          <a href="#">Ver más</a>
+
+          <div class="circle-images">
+            <img src="imagen1.jpg" alt="Imagen 1">
+            <img src="imagen2.jpg" alt="Imagen 2">
+            <img src="imagen3.jpg" alt="Imagen 3">
+            <img src="imagen4.jpg" alt="Imagen 4">
+          </div>
+
+      </li>
+
+  
+    </section>
+
+    <section id="contac_to">
+      <h2>Contacto</h2>
+      <form onsubmit="return validarFormulario()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escriba su mensaje aquí"></textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Traveland - Agencia de Viajes &copy; 2023</p>
+  </footer>
+</body>
+</html>
